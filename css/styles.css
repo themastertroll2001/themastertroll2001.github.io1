@@ -1,0 +1,42 @@
+*{
+padding: 0;
+margin: 0;
+text-decoration: none;
+list-style: none;
+box-sizing: border-box;
+}
+
+nav{
+  background: #2fcdcd;
+  height: 80px;
+  width: 100%;
+}
+.enlace{
+	position: static;
+	padding: 40px 30px;
+	}
+.tabla {
+	background-color: blue;
+}
+.actual{
+	background-color: red;
+}
+
+
+.btn{
+	padding: 20px 50px;
+	text-decoration: none;
+	display: inline-block;
+	
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+.btncol{
+color: white;
+	background-color: #3CC93F;
+}
+.btncol:hover{
+	background-color: #37B839;
+}
+.btncol:active{
+	background-color: #29962A;
+}
